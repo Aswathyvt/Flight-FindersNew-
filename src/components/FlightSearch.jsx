@@ -198,24 +198,6 @@ function FlightSearch() {
       </header>
 
       <div className="container mx-auto p-4">
-        {/* Add Flight Button */}
-        <Button
-          className="mb-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
-          onClick={() => setShowAddFlightDialog(true)}
-        >
-          Add New Flight
-        </Button>
-
-        {/* Add Flight Dialog */}
-        {showAddFlightDialog && (
-          <Dialog
-            title="Add New Flight"
-            onClose={() => setShowAddFlightDialog(false)}
-          >
-            <FlightForm onAddFlight={addFlight} />
-          </Dialog>
-        )}
-
         {/* Sorting and Filtering */}
         <div className="flex flex-col md:flex-row justify-between items-start gap-4 mb-6">
           <div className="flex flex-wrap gap-2">
