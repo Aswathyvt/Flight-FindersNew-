@@ -72,6 +72,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.airlineName}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -85,6 +86,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.flightNumber}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -98,6 +100,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.fromLocation}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -111,6 +114,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.toLocation}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -126,6 +130,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.price}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -139,6 +144,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.duration}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -152,6 +158,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.departureTime}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -165,6 +172,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.arrivalTime}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
@@ -178,6 +186,7 @@ function FlightForm({ onAddFlight }) {
             value={flight.departureDate}
             onChange={handleChange}
             required
+            className="border-none shadow-xl p-3 rounded-lg"
           />
         </div>
 
